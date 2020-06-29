@@ -5,6 +5,7 @@
 
 ##### Resources:
   -pgAdmin 4
+  
   -QuickDBD
 
 ### Challenge Summary:
