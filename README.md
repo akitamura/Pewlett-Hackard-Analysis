@@ -24,7 +24,7 @@ Analysis of the information show:
  From this data we have access to information regarding salaries. With this information it may be possible to further study areas where we can expect to decrease or increase spending on salary based on company needs and objectives.
  
  ERD of Databases Given:
- https://github.com/akitamura/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png
+ [ERD](EmployeeDB.png)
  
  ### Challenge Process: 
  
