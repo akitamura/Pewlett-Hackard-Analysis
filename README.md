@@ -20,7 +20,8 @@ Analysis of the information show:
     - 2 Managers
  (The retire_titles.csv in Challenge Data shows both a list of the titles retiring and the number of employees with those titles)
  
- - A list of potential employees who are eligible to participate in the mentorship program was provided in the mentorship.csv. The list also includes a history of previous titles held by each employee.
+ - Of the employees 1,549 employees are eligible for mentorship
+    - A list of potential employees who are eligible to participate in the mentorship program was provided in the mentorship.csv. The list also includes a history of previous titles held by each employee.
  
  From this data we have access to information regarding salaries. With this information it may be possible to further study areas where we can expect to decrease or increase spending on salary based on company needs and objectives.
  
