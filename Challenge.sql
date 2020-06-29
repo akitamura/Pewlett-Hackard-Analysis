@@ -65,3 +65,25 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship;
+
+
+-- Partition Employee Mentorship
+Select emp_no,
+	first_name,
+	last_name,
+	to_date,
+	title
+INTO partition_mentorship
+FROM (
+	SELECT emp_no,
+		first_name,
+		last_name,
+		to_date,
+		title, ROW_NUMBER() OVER
+	(PARTITION BY (emp_no)
+	ORDER BY to_date DESC) rn
+	FROM mentorship
+	) tmp WHERE rn =1
+ORDER BY emp_no;
+
+SELECT * FROM partition_mentorship;
